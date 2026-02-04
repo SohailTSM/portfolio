@@ -98,17 +98,17 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 1 }}>
             <motion.div className="flex flex-row items-center gap-4">
-              {/* Contact Button */}
+              {/* About Button */}
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="touch-target">
                 <a
-                  href="#contact"
-                  aria-label="Go to contact section"
-                  onClick={(e) => handleAnchorClick(e, "contact")}>
+                  href="#about"
+                  aria-label="Go to about section"
+                  onClick={(e) => handleAnchorClick(e, "about")}>
                   <Button className="min-w-[120px] py-3 text-base">
-                    Contact Me
+                    About Me
                   </Button>
                 </a>
               </motion.div>

@@ -8,10 +8,10 @@ interface SeoProps {
 }
 
 const Seo = ({
-  title = "Sohail Memon | Software Engineering Student",
-  description = "Portfolio website of Sohail Memon, a software engineering student specializing in full-stack development and Machine Learning.",
-  keywords = "Sohail Memon, software engineering, full-stack developer, React, portfolio, projects, machine learning, ml",
-  ogImage = "/og-image.jpg",
+  title = "Sohail Memon | Full Stack Developer & ML Enthusiast",
+  description = "Full Stack Developer & ML Enthusiast. Building scalable, efficient systems with clean code and modern technologies. Explore my projects in React, Node.js, C++, and Python.",
+  keywords = "Sohail Memon, software engineering, full-stack developer, React, portfolio, projects, machine learning, ml, Node.js, C++, Python, web development",
+  ogImage = "/imgs/me.png",
 }: SeoProps) => {
   return (
     <Helmet>

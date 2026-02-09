@@ -1,0 +1,27 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle with gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2662d9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ba8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main circle with gradient -->
+  <circle cx="64" cy="64" r="64" fill="url(#bgGradient)"/>
+  
+  <!-- Border circle -->
+  <circle cx="64" cy="64" r="60" fill="none" stroke="#ffffff" stroke-width="3"/>
+  
+  <!-- Text TSM -->
+  <text 
+    x="64" 
+    y="64" 
+    font-family="Arial, sans-serif" 
+    font-size="42" 
+    font-weight="bold" 
+    fill="#ffffff" 
+    text-anchor="middle"
+    dominant-baseline="middle"
+    letter-spacing="2">TSM</text>
+</svg>

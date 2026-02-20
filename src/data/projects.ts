@@ -55,4 +55,15 @@ export const projects: Project[] = [
       live: "",
     },
   },
+  {
+    id: 5,
+    title: "4-Gram Language Model for Text Prediction",
+    description:
+      "Implemented an n-gram (up to 4-gram) statistical language model from scratch in Python with multiple smoothing techniques including Laplace, Witten-Bell, and Kneser-Ney. Evaluated model performance using entropy and perplexity, and built a modular preprocessing pipeline for tokenization and normalization.",
+    tags: ["Python", "NLP", "Language Modeling", "Statistical Modeling"],
+    links: {
+      github: "https://github.com/SohailTSM/4GramLanguageModel",
+      live: "",
+    },
+  },
 ];

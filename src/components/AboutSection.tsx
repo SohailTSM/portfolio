@@ -96,8 +96,10 @@ const AboutSection = () => {
                         M. Tech in Computer Science and Engineering
                       </p>
                       <p className="text-sm text-muted-foreground">
-                        IIIT, Hyderabad (International Institute of Information
-                        Technology)
+                        <i>
+                          IIIT, Hyderabad (International Institute of
+                          Information Technology)
+                        </i>
                       </p>
                       <p className="text-sm text-muted-foreground">
                         2025 - Present
@@ -108,7 +110,7 @@ const AboutSection = () => {
                         B. Tech in Information Technology
                       </p>
                       <p className="text-sm text-muted-foreground">
-                        BIT, Durg (Bhilai Institute of Technology)
+                        <i>BIT, Durg (Bhilai Institute of Technology)</i>
                       </p>
                       <p className="text-sm text-muted-foreground">
                         2017 - 2021

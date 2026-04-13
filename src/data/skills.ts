@@ -34,6 +34,20 @@ export const skillCategories: SkillCategory[] = [
     skills: ["MongoDB", "MySQL", "PostgreSQL"],
   },
   {
+    name: "Natural Language Processing",
+    icon: Brain,
+    skills: [
+      "Tokenization",
+      "Language Modeling",
+      "RNNs",
+      "LSTMs",
+      "Machine Translation",
+      "Transformers",
+      "Hugging Face",
+      "Kaggle",
+    ],
+  },
+  {
     name: "Tools & Technologies",
     icon: Cpu,
     skills: ["Git", "Vercel", "Linux", "Docker"],

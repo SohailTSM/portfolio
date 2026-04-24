@@ -9,9 +9,30 @@ export type Project = {
   };
 };
 
+let idNumber = 1;
+
 export const projects: Project[] = [
   {
-    id: 1,
+    id: idNumber++,
+    title: "Centralized College Merchandise Management System",
+    description:
+      "Built a MERN stack platform for centralized college merchandise sales with catalog management, orders, delivery slots, and notifications. Implemented async Pub-Sub workflows and benchmarked Monolith vs Microservices architectures, validating better performance with modular monolith design.",
+    tags: [
+      "MongoDB",
+      "Express.js",
+      "React",
+      "Node.js",
+      "System Design",
+      "Microservices",
+    ],
+    links: {
+      github:
+        "https://github.com/SohailTSM/Centralized-College-Merchandise-Management-System",
+      live: "https://ccmms.tsmtech.in/",
+    },
+  },
+  {
+    id: idNumber++,
     title: "Detecting Machine-Generated Code",
     description:
       "Built and evaluated multiple approaches including CodeBERT, StarCoder2 hybrid, and Graph Transformers to detect AI-generated code, achieving strong results on SemEval-2026 under multilingual and adversarial settings.",
@@ -22,7 +43,7 @@ export const projects: Project[] = [
     },
   },
   {
-    id: 2,
+    id: idNumber++,
     title: "Cipher Decryption and Language Modeling using Sequence Models",
     description:
       "Implemented RNN, LSTM, SSM, and Bi-LSTM from scratch in PyTorch for cipher decryption and language modeling, achieving 78.25% accuracy and improving predictions on noisy data using an error-correction pipeline.",
@@ -34,7 +55,7 @@ export const projects: Project[] = [
     },
   },
   {
-    id: 3,
+    id: idNumber++,
     title: "Sorting Visualizer",
     description:
       "Developed an interactive sorting visualizer to compare common algorithms with real-time animations and adjustable parameters, built using React and deployed on Vercel.",
@@ -45,7 +66,7 @@ export const projects: Project[] = [
     },
   },
   {
-    id: 4,
+    id: idNumber++,
     title: "Peer-to-Peer Distributed File Sharing System",
     description:
       "Implemented a tracker-based P2P file sharing system supporting peer discovery, file metadata management, and decentralized client-to-client file transfer.",
@@ -57,7 +78,7 @@ export const projects: Project[] = [
     },
   },
   {
-    id: 5,
+    id: idNumber++,
     title: "Disaster Aid",
     description:
       "ADisasterAid is a project that helps organize and share critical information during disasters to support relief efforts and improve response coordination.",
@@ -68,7 +89,7 @@ export const projects: Project[] = [
     },
   },
   {
-    id: 6,
+    id: idNumber++,
     title: "POSIX Shell",
     description:
       "Implemented a POSIX-compliant command-line shell supporting command execution, pipelines, I/O redirection, process control, and signal handling for foreground and background jobs.",
@@ -79,7 +100,7 @@ export const projects: Project[] = [
     },
   },
   {
-    id: 7,
+    id: idNumber++,
     title: "4-Gram Language Model for Text Prediction",
     description:
       "Implemented an n-gram (up to 4-gram) statistical language model from scratch in Python with multiple smoothing techniques including Laplace, Witten-Bell, and Kneser-Ney. Evaluated model performance using entropy and perplexity, and built a modular preprocessing pipeline for tokenization and normalization.",

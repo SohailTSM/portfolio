@@ -179,7 +179,7 @@ const AboutSection = () => {
                 <AvatarFallback>TSM</AvatarFallback>
               </Avatar>
               <div className="absolute -bottom-2 -right-2 bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-medium">
-                8.78 GPA
+                9.00 CGPA
               </div>
             </motion.div>
 

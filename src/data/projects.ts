@@ -33,6 +33,18 @@ export const projects: Project[] = [
   },
   {
     id: idNumber++,
+    title: "Decoder-Only Language Models for Hindi and Nepali",
+    description:
+      "Pretrained two 25.7M-parameter GPT-style models from scratch in PyTorch on ~460M tokens each, covering web scraping, corpus cleaning and deduplication, SentencePiece tokenizers, and RoPE attention. Reached test perplexity of 27.3 (Hindi) and 45.2 (Nepali), and fine-tuned for multi-step reasoning, lifting accuracy from 0% to 36%.",
+    tags: ["Python", "PyTorch", "LLMs", "Transformers", "NLP", "Hugging Face"],
+    links: {
+      github:
+        "https://github.com/SohailTSM/Decoder-Only-Language-Models-for-Hindi-and-Nepali",
+      live: "",
+    },
+  },
+  {
+    id: idNumber++,
     title: "Detecting Machine-Generated Code",
     description:
       "Built and evaluated multiple approaches including CodeBERT, StarCoder2 hybrid, and Graph Transformers to detect AI-generated code, achieving strong results on SemEval-2026 under multilingual and adversarial settings.",

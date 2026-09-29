@@ -34,11 +34,14 @@ export const skillCategories: SkillCategory[] = [
     skills: ["MongoDB", "MySQL", "PostgreSQL"],
   },
   {
-    name: "Natural Language Processing",
+    name: "NLP & LLMs",
     icon: Brain,
     skills: [
       "Tokenization",
+      "SentencePiece",
       "Language Modeling",
+      "LLM Pretraining",
+      "Fine-tuning",
       "RNNs",
       "LSTMs",
       "Machine Translation",
@@ -50,6 +53,6 @@ export const skillCategories: SkillCategory[] = [
   {
     name: "Tools & Technologies",
     icon: Cpu,
-    skills: ["Git", "Vercel", "Linux", "Docker"],
+    skills: ["Git", "Vercel", "Linux", "Docker", "Weights & Biases"],
   },
 ];

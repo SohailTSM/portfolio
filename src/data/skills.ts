@@ -1,4 +1,4 @@
-import { Code, Database, Layout, Terminal, Cpu, Brain } from "lucide-react";
+import { Code, Database, Layout, Terminal, Cpu, Brain, Eye } from "lucide-react";
 import { LucideIcon } from "lucide-react";
 
 export type SkillCategory = {
@@ -16,7 +16,21 @@ export const skillCategories: SkillCategory[] = [
   {
     name: "Machine Learning & AI",
     icon: Brain,
-    skills: ["scikit-learn", "Pandas", "NumPy", "Matplotlib", "PyTorch"],
+    skills: [
+      "scikit-learn",
+      "Pandas",
+      "NumPy",
+      "Matplotlib",
+      "PyTorch",
+      "PyTorch Geometric",
+      "CatBoost",
+      "XGBoost",
+    ],
+  },
+  {
+    name: "Computer Vision",
+    icon: Eye,
+    skills: ["OpenCV", "YOLOv8", "Object Tracking", "Optical Flow"],
   },
   {
     name: "Frontend Development",

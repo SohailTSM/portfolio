@@ -56,6 +56,17 @@ export const projects: Project[] = [
   },
   {
     id: idNumber++,
+    title: "Dashcam Highlight Extractor",
+    description:
+      "Built a CPU-only pipeline that automatically finds dangerous moments in dashcam footage, combining YOLOv8 + ByteTrack object tracking, camera-motion removal with optical flow and RANSAC, and 8 physics-based risk heuristics like lane cut-ins, hard braking, and time-to-collision. Runs at ~1.5× real time on a laptop CPU and exports highlight clips with a JSON report through a Gradio web app.",
+    tags: ["Python", "Computer Vision", "YOLOv8", "OpenCV", "Gradio"],
+    links: {
+      github: "https://github.com/SohailTSM/Dashcam-Highlight-Extractor",
+      live: "",
+    },
+  },
+  {
+    id: idNumber++,
     title: "Cipher Decryption and Language Modeling using Sequence Models",
     description:
       "Implemented RNN, LSTM, SSM, and Bi-LSTM from scratch in PyTorch for cipher decryption and language modeling, achieving 78.25% accuracy and improving predictions on noisy data using an error-correction pipeline.",
